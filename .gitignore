@@ -9,6 +9,7 @@
 *.obj
 *.iobj
 *.o
+webui/
 
 # Logs
 *.log
