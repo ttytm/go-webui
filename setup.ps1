@@ -1,6 +1,7 @@
 # Download helper for WebUI wrapper users to simplify the setup with the latest WebUI-C versions.
 # Author: Turiiya (https://github.com/ttytm).
 # License: MIT
+# Source: https://github.com/webui-dev/webui-release-downloader
 
 # Currently the downloader works for tagged release versions.
 # E.g., @latest or commit SHAs would not work.
