@@ -11,6 +11,11 @@
 *.o
 webui/
 
+# All sub-level build binaries
+*/**/*
+!*/**/*/
+!*/**/*.*
+
 # Logs
 *.log
 *.logs

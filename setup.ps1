@@ -3,10 +3,15 @@
 #
 # Source: https://github.com/webui-dev/webui-release-downloader
 # License: MIT
-
+#
 # Currently the downloader works for tagged release versions.
-# E.g., @latest or commit SHAs would not work.
-$module = "github.com/ttytm/go-webui@v2.0.0"
+# Usage via web: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/webui-dev/go-webui/main/setup.sh)"`
+# Local execution e.g., `sh $GOPATH/pkg/mod/github.com/webui-dev/go-webui/v2@v2.4.0/setup.sh` would require
+# less logic but the idea is to eventually dynamically determine the latest version to also support versions
+# like `@latest` or commit SHAs.
+
+# TODO: change module source
+$module = "github.com/ttytm/go-webui/v2/@v2.4.0-beta"
 $base_url = "https://github.com/webui-dev/webui/releases/"
 
 # Get the platform and architecture
