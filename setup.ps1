@@ -1,11 +1,12 @@
-# Download helper for WebUI wrapper users to simplify the setup with the latest WebUI-C versions.
-# Author: Turiiya (https://github.com/ttytm).
-# License: MIT
+# Download helper for WebUI wrapper users to simplify the setup with the latest
+# WebUI-C versions - Go Prototype.
+#
 # Source: https://github.com/webui-dev/webui-release-downloader
+# License: MIT
 
 # Currently the downloader works for tagged release versions.
 # E.g., @latest or commit SHAs would not work.
-$module = "github.com/ttytm/go-webui@v0.1.0"
+$module = "github.com/ttytm/go-webui@v2.0.0"
 $base_url = "https://github.com/webui-dev/webui/releases/"
 
 # Get the platform and architecture
